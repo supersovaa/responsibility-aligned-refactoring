@@ -1,1 +1,1 @@
-# refactoring-residue-review
+# responsibility-aligned-refactoring
