@@ -18,7 +18,7 @@ This skill owns the coherence of implementation paths after responsibility moves
 
 ## Setup
 
-Link [`SKILL.md`](SKILL.md) directly from the applicable implementation and review work-type entries in the target repository, such as `AGENTS.md` or a task-specific skill. Read and apply it when that work type begins. Keep detailed operational rules in the public `SKILL.md`.
+Link the public [`responsibility-aligned-refactoring` definition](https://github.com/supersovaa/responsibility-aligned-refactoring/blob/main/SKILL.md) directly from the applicable implementation and review work-type entries in the target repository, such as `AGENTS.md` or a task-specific skill. Read and apply it when that work type begins. Keep detailed operational rules in the public `SKILL.md`.
 
 ## Files
 
