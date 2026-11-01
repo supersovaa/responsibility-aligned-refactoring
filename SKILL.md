@@ -1,6 +1,6 @@
 ---
 name: responsibility-aligned-refactoring
-description: Keep implementation ownership coherent when refactoring moves or splits existing responsibilities across modules, packages, crates, or layers. Use during implementation or review of those changes.
+description: Keep implementation ownership coherent when implementing or reviewing refactoring that moves, splits, or consolidates existing responsibilities across modules, packages, crates, or layers.
 ---
 
 # Responsibility-Aligned Refactoring
@@ -24,7 +24,7 @@ Align each moved responsibility with its settled owner. Keep one authoritative p
 - Reconcile moved code with its former location. Remove obsolete copies and connect each retained implementation to its actual callers.
 - Prefer direct access through the intended boundary over forwarding methods, re-export chains, aliases, and wrappers that merely reproduce another path. Retain compatibility layers where a settled contract or migration requires them.
 - Align test support with the new owner. Prefer updating test imports and helpers to their canonical paths over reproducing the previous module hierarchy through forwarding fixtures.
-- Place optional expensive work, such as whole-state snapshots or diagnostic capture, behind the point where its need is known. Compare enabled and disabled execution paths with the pre-refactor behavior.
+- When a consumer knows before an operation whether optional data is needed, pass that need to the producer before it captures expensive snapshots or diagnostic data. Compare enabled and disabled execution paths with the pre-refactor behavior.
 
 ## Verify the resulting implementation
 
