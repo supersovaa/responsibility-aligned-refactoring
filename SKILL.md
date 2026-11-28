@@ -1,11 +1,11 @@
 ---
 name: responsibility-aligned-refactoring
-description: Keep implementation ownership coherent when implementing or reviewing refactoring that moves, splits, or consolidates existing responsibilities across modules, packages, crates, or layers.
+description: Use when implementing or reviewing a refactor. Check ownership of behavior and state across implementation boundaries.
 ---
 
 # Responsibility-Aligned Refactoring
 
-Use this skill when implementing or reviewing a refactoring that moves, splits, or consolidates existing responsibilities across implementation boundaries.
+If the refactor moves, splits, or consolidates an existing responsibility, trace it across the old and new boundaries and verify its owner and callers.
 
 ## Core rule
 
