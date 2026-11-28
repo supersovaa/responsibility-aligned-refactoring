@@ -8,7 +8,7 @@ Move each responsibility to its settled owner and keep one authoritative impleme
 
 ## Skill and activation
 
-- [`responsibility-aligned-refactoring`](SKILL.md) — use when implementing or reviewing a refactoring that moves, splits, or consolidates existing responsibilities across implementation boundaries.
+- [`responsibility-aligned-refactoring`](SKILL.md) — use when implementing or reviewing a refactor. Apply the ownership checks to responsibilities that move, split, or consolidate across boundaries.
 
 ## Responsibility boundaries
 
